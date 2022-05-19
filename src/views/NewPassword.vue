@@ -3,21 +3,21 @@
     <div class="columns is-centered">
       <div class="column is-half">
         <div class="notification is-size-4">
-          <p class="mt-4 is-size-5">
+          <p class="mt-3 is-size-5">
             تسجيل الدخول
           </p>
           <p class="mt-4 is-size-6 has-text-weight-light ">
-            البريد الالكتروني
+            ادخال كلمة المرور الجديدة
           </p>
 
           <input
             class="is-size-5"
             dir="ltr"
-            type="email"
-            placeholder="example@gmail.com"
+            type="password"
+            placeholder="*******"
           >
-          <p class=" mt-3 is-size-6 has-text-weight-light">
-            كلمة المرور
+          <p class=" mt-4 is-size-6 has-text-weight-light">
+            تأكيد كلمة المرور
           </p>
           <input
             class="is-size-5"
@@ -25,9 +25,6 @@
             type="password"
             placeholder="*******"
           >
-          <p class="is-size-7">
-            هل نسيت كلمة المرور ؟<a href="http://192.168.1.8:8081/newpassword">اضغط هنا</a>
-          </p>
         </div>
         <div class="columns is-centered">
           <div class="column is-half">

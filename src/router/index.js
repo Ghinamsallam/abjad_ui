@@ -23,6 +23,21 @@ const routes = [
     name: 'Login',
     component: () => import(/* webpackChunkName: "login" */ '../views/LoginView.vue'),
   },
+  {
+    path: '/acount',
+    name: 'Acount',
+    component: () => import(/* webpackChunkName: "login" */ '../views/CreateAcount.vue'),
+  },
+  {
+    path: '/newpassword',
+    name: 'Newpassword',
+    component: () => import(/* webpackChunkName: "login" */ '../views/NewPassword.vue'),
+  },
+  {
+    path: '/childbirthday',
+    name: 'ChildBirthday',
+    component: () => import(/* webpackChunkName: "login" */ '../views/ChildBirthday.vue'),
+  },
 ]
 
 const router = new VueRouter({

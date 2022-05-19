@@ -41,14 +41,9 @@ $body-size: 20px;
 $family-sans-serif: 'Cocon Next Arabic', sans-serif;
 $primary: $blue;
 $custom-colors: ("secondary":($cyan, $cyan-invert));
+$input-background-color: #E4F5FF;
+$notification-background-color: #E4F5FF;
+
 
 // Import only what you need from Bulma
-@import "~bulma/sass/utilities/_all.sass";
-@import "~bulma/sass/base/_all.sass";
-@import "~bulma/sass/elements/button.sass";
-@import "~bulma/sass/elements/container.sass";
-@import "~bulma/sass/elements/title.sass";
-@import "~bulma/sass/form/_all.sass";
-@import "~bulma/sass/components/navbar.sass";
-@import "~bulma/sass/layout/hero.sass";
-@import "~bulma/sass/layout/section.sass";
+@import "~bulma/bulma";
