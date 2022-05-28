@@ -36,7 +36,7 @@
         <div class="columns is-centered">
           <div class="column is-half">
             <button class="button is-rounded is-centered">
-              <p class="but">
+              <p>
                 التالي
               </p>
             </button>

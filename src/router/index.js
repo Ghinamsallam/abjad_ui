@@ -38,6 +38,11 @@ const routes = [
     name: 'ChildBirthday',
     component: () => import(/* webpackChunkName: "login" */ '../views/ChildBirthday.vue'),
   },
+  {
+    path: '/childis',
+    name: 'ChildIs',
+    component: () => import(/* webpackChunkName: "login" */ '../views/ChildIs.vue'),
+  },
 ]
 
 const router = new VueRouter({

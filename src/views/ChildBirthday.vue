@@ -5,13 +5,19 @@
         <p class="mt-6 ml-5 is-size-3 has-text-centered">
           مواليد طفلك ؟
         </p>
+
+        <input
+          class="is-size-3 mt-5"
+          type="date"
+        >
+
         <div class="columns is-centered">
           <div class="column is-half">
-            <input
-              class="is-size-3"
-              type="date"
-              dir="ltr"
-            >
+            <button class="button is-rounded is-centered mt-6">
+              <p>
+                التالي
+              </p>
+            </button>
           </div>
         </div>
       </div>
@@ -28,5 +34,14 @@ input{
 background-color: #E4F5FF;
   border:none
 
+}
+
+.button {
+  width: 80%;
+  text-align: center;
+
+  margin-top: 5%;
+  color:white;
+background-color: #6FA3D2;
 }
 </style>

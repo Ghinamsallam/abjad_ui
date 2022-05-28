@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80.238" height="80.238">
+  <defs>
+    <filter id="a" x="0" y="0" width="80.238" height="80.238" filterUnits="userSpaceOnUse">
+      <feOffset dy="3"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity=".122"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g filter="url(#a)">
+    <g data-name="Ellipse 78" transform="translate(15 12)" fill="#6fa3d2" stroke="#fff" stroke-width="2">
+      <circle cx="25.119" cy="25.119" stroke="none" r="25.119"/>
+      <circle cx="25.119" cy="25.119" fill="none" r="24.119"/>
+    </g>
+  </g>
+  <path d="M50.552 28.01a2.784 2.784 0 0 0-1.194-1.295 1.541 1.541 0 0 0-1.852.239 84.5 84.5 0 0 0-6.667 7.325 33.67 33.67 0 0 0-3.345 4.349 28.196 28.196 0 0 1-1.238-1.07 19.2 19.2 0 0 0-4.354-3.464c-1.344-.647-2.355-.059-3.207 1.062a2.506 2.506 0 0 0-.543 1.35 1.1 1.1 0 0 0 .006 1.5 44.6 44.6 0 0 0 10.177 8.777 1.524 1.524 0 0 0 1.844-.238 148.931 148.931 0 0 0 11.166-16.556 1.287 1.287 0 0 0-.793-1.979Z" fill="#fff"/>
+</svg>
