@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="109.035" height="109.035">
+  <defs>
+    <filter id="a" x="0" y="0" width="109.035" height="109.035" filterUnits="userSpaceOnUse">
+      <feOffset dy="3"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity=".122"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g filter="url(#a)">
+    <g data-name="Ellipse 78" transform="translate(15 12)" fill="#6fa3d2" stroke="#fff" stroke-width="2">
+      <circle cx="39.518" cy="39.518" stroke="none" r="39.518"/>
+      <circle cx="39.518" cy="39.518" fill="none" r="38.518"/>
+    </g>
+  </g>
+  <path data-name="Path 1661" d="M54.517 47.306a6.318 6.318 0 1 0 6.318 6.318 6.318 6.318 0 0 0-6.318-6.318Zm16.848-6.318h-5.054a1.876 1.876 0 0 1-1.663-1.2l-1.307-3.918a1.877 1.877 0 0 0-1.663-1.2h-14.32a1.876 1.876 0 0 0-1.663 1.2l-1.308 3.92a1.877 1.877 0 0 1-1.663 1.2H37.67a4.224 4.224 0 0 0-4.212 4.21v18.953a4.224 4.224 0 0 0 4.212 4.217h33.7a4.224 4.224 0 0 0 4.212-4.212V45.2a4.224 4.224 0 0 0-4.217-4.212ZM54.517 64.153a10.53 10.53 0 1 1 10.53-10.53 10.53 10.53 0 0 1-10.53 10.53Zm15.374-16.008a1.474 1.474 0 1 1 1.474-1.475 1.474 1.474 0 0 1-1.474 1.475Z" fill="#fff"/>
+</svg>

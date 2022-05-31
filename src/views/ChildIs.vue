@@ -2,14 +2,14 @@
   <dive class="container mt-5">
     <div class="columns is-centered">
       <div class="column is-half">
-        <p class="mt-4 ml-5 is-size-3 has-text-centered">
+        <p class="mt-4 ml-1 is-size-3 has-text-centered">
           طفلك هو ؟
         </p>
-        <div class="columns mt-3">
+        <div class="columns mt-3 is-mobile">
           <div
             class="column"
           >
-            <figure class="image is-128x128">
+            <figure class="image is-128x128  ml-auto">
               <img
 
                 src="@/assets/image boy.svg"
@@ -23,8 +23,8 @@
               </figure>
             </figure>
           </div>
-          <div class="column is-3">
-            <figure class="image is-128x128">
+          <div class="column">
+            <figure class="image is-128x128 mr-auto">
               <img
 
                 src="@/assets/image girl.svg"

@@ -43,6 +43,21 @@ const routes = [
     name: 'ChildIs',
     component: () => import(/* webpackChunkName: "login" */ '../views/ChildIs.vue'),
   },
+  {
+    path: '/childname',
+    name: 'ChildName',
+    component: () => import(/* webpackChunkName: "login" */ '../views/ChildName.vue'),
+  },
+  {
+    path: '/childphoto',
+    name: 'ChildPhoto',
+    component: () => import(/* webpackChunkName: "login" */ '../views/ChildPhoto.vue'),
+  },
+  {
+    path: '/startplay',
+    name: 'StartPlay',
+    component: () => import(/* webpackChunkName: "login" */ '../views/StartPlaying.vue'),
+  },
 ]
 
 const router = new VueRouter({

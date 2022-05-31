@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="297.022" height="213.677">
+  <g data-name="Group 4237">
+    <path data-name="Path 2266" d="M258.648 67.016a38.244 38.244 0 0 0-14.164 2.7 41.64 41.64 0 0 0 .091-2.7 40.955 40.955 0 0 0-64.676-33.382 50.2 50.2 0 0 0-96.061 4.308 41.573 41.573 0 0 0-52.58 46.072C12.967 89.377.001 102.788.001 118.485c0 9.041 4.253 17.266 10.841 23.3 16.8 0 238.318.253 257.691.253 7.66-3.9 15.449-7.159 20.82-14.062a36.871 36.871 0 0 0 7.668-22.585 38.374 38.374 0 0 0-38.373-38.375Z" fill="#fff" opacity=".7"/>
+    <text data-name="عدد النقاط" transform="translate(148 200.677)" fill="#6fa3d2" font-size="32" font-family="CoconNextArabic-Regular, Cocon® Next Arabic"><tspan x="-64.896" y="0">عدد النقاط</tspan></text>
+    <text data-name="50" transform="translate(110.011 114)" fill="#6fa3d2" font-size="48" font-family="CoconNextArabic-Regular, Cocon® Next Arabic"><tspan x="-26.136" y="0">50</tspan></text>
+    <g data-name="Group 4286">
+      <g data-name="Group 4285">
+        <g data-name="Group 4281">
+          <g data-name="Group 4280">
+            <g data-name="Group 4278" fill="#fff" stroke="#6fa3d2" stroke-miterlimit="10">
+              <path data-name="Path 2301" d="m198.553 87.504 13.056 9.864-25.979 28.534-25.5-28.1 12.682-10.08Z"/>
+              <path data-name="Path 2302" d="m185.631 126.208-25.8-28.436 12.912-10.262 25.88-.217 13.294 10.044Zm-25.194-28.387 25.195 27.768 25.671-28.2-12.818-9.684-25.6.215Z"/>
+            </g>
+            <g data-name="Group 4279">
+              <path data-name="Path 2303" d="M185.632 101.021h-.02l-25.663-3.13.038-.315 25.643 3.127 25.959-3.494.042.315Z" fill="#fff" stroke="#6fa3d2" stroke-miterlimit="10"/>
+            </g>
+          </g>
+        </g>
+        <g data-name="Group 4282">
+          <path data-name="Path 2304" d="M185.637 125.876h-.005a.416.416 0 0 1-.379-.252l-11.325-25.94-1.347-11.941.472-.053 1.285 11.393 10.593-11.357a.73.73 0 0 1 1.027-.038l12.435 11.5-12.378 26.446a.415.415 0 0 1-.378.242Zm-11.2-26.206 11.2 25.652 12.178-26.024-12.18-11.257a.254.254 0 0 0-.358.013Z" fill="#fff" stroke="#6fa3d2" stroke-miterlimit="10"/>
+        </g>
+        <g data-name="Group 4284">
+          <path data-name="Path 2305" d="M185.375 125.721v-24.7l-.175-13.486.475-.006.175 13.489v24.703Z" fill="#fff" stroke="#6fa3d2" stroke-miterlimit="10"/>
+        </g>
+      </g>
+      <path data-name="Line 31" fill="none" stroke="#6fa3d2" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="m199.13 82.35 8.526-8.339"/>
+      <path data-name="Line 32" fill="none" stroke="#6fa3d2" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M185.486 82.35V72.153"/>
+      <path data-name="Line 33" fill="none" stroke="#6fa3d2" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="m172.58 82.351-8.322-8.322"/>
+    </g>
+  </g>
+</svg>
