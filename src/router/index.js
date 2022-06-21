@@ -58,6 +58,11 @@ const routes = [
     name: 'StartPlay',
     component: () => import(/* webpackChunkName: "login" */ '../views/StartPlaying.vue'),
   },
+  {
+    path: '/settings',
+    name: 'Settings',
+    component: () => import(/* webpackChunkName: "login" */ '../views/SettingsAcount.vue'),
+  },
 ]
 
 const router = new VueRouter({
