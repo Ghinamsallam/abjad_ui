@@ -44,14 +44,68 @@
             حفظ التغييرات
           </p>
         </button>
-        <div class="columns">
-          <div class="column">
-            <label class="switch">
-              <input type="checkbox">
-              <span class="slider round" />
-            </label>
+        <div
+          class="container mt-6
+"
+        >
+          <div class="columns columns is-gapless is-multiline is-mobile">
+            <div class="column is-one-quarter">
+              <div class="notification">
+                <div class="columns">
+                  <div class="column ">
+                    <p class="is-size-5">
+                      المؤثرات الصوتية
+                    </p>
+                  </div>
+                  <div class="column is-2">
+                    <label class="switch">
+                      <input type="checkbox">
+                      <span class="slider round" />
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-one-quarter" />
+            <div class="column is-one-quarter" />
+
+            <div class="column is-one-quarter">
+              <div class="notification">
+                <div class="columns">
+                  <div class="column ">
+                    <p class="is-size-5">
+                      الرسائل التحفيزية
+                    </p>
+                  </div>
+                  <div class="column is-2">
+                    <label class="switch">
+                      <input type="checkbox">
+                      <span class="slider round" />
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-half">
+              <div class="notification">
+                <div class="columns">
+                  <div class="column ">
+                    <p class="is-size-5">
+                      تمارين التحدث
+                    </p>
+                  </div>
+                  <div class="column is-2">
+                    <label class="switch">
+                      <input type="checkbox">
+                      <span class="slider round" />
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-one-quarter" />
+            <div class="column is-one-quarter" />
           </div>
-          <div class="column" />
         </div>
       </div>
     </div>
@@ -114,6 +168,44 @@ margin-top: 18%;
   width: 0;
   height: 0;
 }
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color:green;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px green;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
 .slider.round {
   border-radius: 34px;
 }
@@ -121,17 +213,10 @@ margin-top: 18%;
 .slider.round:before {
   border-radius: 50%;
 }
-input:checked + .slider {
-  background-color: #2196F3;
-}
+.notification{
 
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
+  height: 100%;
+  width: 100%;
+  background-color:whitesmoke;
 }
 </style>
