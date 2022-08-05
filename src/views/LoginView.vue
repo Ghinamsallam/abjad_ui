@@ -41,7 +41,6 @@
             <button class="button is-rounded is-centered">
               <p>
                 التالي
-                <a href="http://192.168.1.8:8081/childis" />
               </p>
             </button>
           </div>
