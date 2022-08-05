@@ -41,9 +41,12 @@
         </div>
         <button class="button is-info is-rounded">
           <p class="but">
-            التالي
-
-            <a href="http://192.168.1.8:8081/childinfo" />
+            <router-link
+              to="/childinfo"
+              class="color"
+            >
+              التالي
+            </router-link>
           </p>
         </button>
       </div>
@@ -100,5 +103,8 @@ margin-top: 18%;
     z-index: 3;
   display: none;
 }
-
+.color{
+  color: white;
+  text-decoration: none;
+}
 </style>

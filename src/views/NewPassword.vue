@@ -37,8 +37,12 @@
           <div class="column is-half">
             <button class="button is-rounded is-centered">
               <p>
-                التالي
-                <a href="http://192.168.1.8:8081/login" />
+                <router-link
+                  to="/login"
+                  class="color"
+                >
+                  التالي
+                </router-link>
               </p>
             </button>
           </div>
@@ -74,6 +78,10 @@ a{
   text-decoration-line: underline;
   color: black;
   font-weight: 200%;
+}
+.color{
+  color: white;
+  text-decoration: none;
 }
 
 </style>

@@ -32,7 +32,8 @@
         <div class="columns is-centered">
           <div class="column is-half">
             <p class="is-size-7">
-              ليس لديك حساب؟<a href="http://192.168.1.111:8081/acount">انقر هنا</a>
+              ليس لديك حساب؟
+              <a href="http://192.168.1.111:8081/acount">انقر هنا</a>
             </p>
           </div>
         </div>
