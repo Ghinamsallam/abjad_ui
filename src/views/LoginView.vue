@@ -41,6 +41,7 @@
             <button class="button is-rounded is-centered">
               <p>
                 التالي
+                <a href="http://192.168.1.8:8081/childis" />
               </p>
             </button>
           </div>
@@ -68,6 +69,7 @@ input{
   text-align: center;
 
   margin-top: 5%;
+  margin-right: 8%;
   color:white;
 background-color: #6FA3D2;
 }

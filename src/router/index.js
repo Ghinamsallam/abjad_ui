@@ -33,25 +33,17 @@ const routes = [
     name: 'Newpassword',
     component: () => import(/* webpackChunkName: "login" */ '../views/NewPassword.vue'),
   },
-  {
-    path: '/childbirthday',
-    name: 'ChildBirthday',
-    component: () => import(/* webpackChunkName: "login" */ '../views/ChildBirthday.vue'),
-  },
+
   {
     path: '/childis',
     name: 'ChildIs',
     component: () => import(/* webpackChunkName: "login" */ '../views/ChildIs.vue'),
   },
+
   {
-    path: '/childname',
-    name: 'ChildName',
-    component: () => import(/* webpackChunkName: "login" */ '../views/ChildName.vue'),
-  },
-  {
-    path: '/childphoto',
-    name: 'ChildPhoto',
-    component: () => import(/* webpackChunkName: "login" */ '../views/ChildPhoto.vue'),
+    path: '/childinfo',
+    name: 'ChildInfo',
+    component: () => import(/* webpackChunkName: "login" */ '../views/ChildInfo.vue'),
   },
   {
     path: '/startplay',
