@@ -60,6 +60,11 @@ const routes = [
     name: 'StatisticsChild',
     component: () => import(/* webpackChunkName: "login" */ '../views/StatisticsChild.vue'),
   },
+  {
+    path: '/mychild',
+    name: 'MyChild',
+    component: () => import(/* webpackChunkName: "login" */ '../views/MyChild.vue'),
+  },
 
 ]
 
