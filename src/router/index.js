@@ -55,6 +55,12 @@ const routes = [
     name: 'Settings',
     component: () => import(/* webpackChunkName: "login" */ '../views/SettingsAcount.vue'),
   },
+  {
+    path: '/statistic',
+    name: 'StatisticsChild',
+    component: () => import(/* webpackChunkName: "login" */ '../views/StatisticsChild.vue'),
+  },
+
 ]
 
 const router = new VueRouter({
